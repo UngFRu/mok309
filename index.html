@@ -85,10 +85,35 @@
 
         }
 
+        ::-webkit-scrollbar {
+             width: 10px;  /* 세로축 스크롤바 길이 */
+             height: 20px;  /* 가로축 스크롤바 길이 */
+        }
+
+        ::-webkit-scrollbar-track {
+             background-color: none;
+             margin: 50px 
+        }
+
+        ::-webkit-scrollbar-track-piece {
+             background-color: none;
+        }
+
+        ::-webkit-scrollbar-thumb {
+             border-radius: 7px;
+             background-color: #2a5fba;
+             border: 10px none none;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+             background-color: #3375e8;
+        }
+
         body {
             background-color:#e3e7ed;
             margin: 0px;
             font-family: 'Nanum Gothic', sans-serif;
+            overflow: auto;
         }
 
         header {
@@ -110,6 +135,8 @@
             list-style-type: none;
             position: fixed;
             top: 0;
+            border-bottom-right-radius: 30px;
+            border
         }
 
         header {
@@ -210,6 +237,8 @@
             border-color: #2a5fba
         }
 
+
+        
     </style>
 </head>
 
