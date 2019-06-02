@@ -1,0 +1,254 @@
+﻿<!doctype html>
+<html lang="ko">
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="prefixfree.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bad+Script|Bai+Jamjuree|Bungee+Shade|Comfortaa|Do+Hyeon|Gaegu|Gamja+Flower|Gothic+A1|Hi+Melody|Jua|Julius+Sans+One|Libre+Barcode+128+Text|Londrina+Sketch|Nanum+Brush+Script|Nanum+Gothic|Nanum+Gothic+Coding|Nanum+Myeongjo|Nanum+Pen+Script|Noto+Sans+KR|Offside|Pacifico|Raleway+Dots|Sunflower:300|Text+Me+One" rel="stylesheet">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>3학년9반:로그인</title>
+    <style>
+
+        body {
+            background-color: #e3e7ed
+        }
+
+        #font1 {
+            font-family: 'Comfortaa', cursive;
+        }
+
+        #font2 {
+            font-family: 'Nanum Pen Script', cursive;
+        }
+
+        #font3 {
+            font-family: 'Amatic SC', cursive;
+        }
+
+        #font4 {
+            font-family: 'Nanum Brush Script', cursive;
+        }
+
+        #font5 {
+            font-family: 'Bai Jamjuree', sans-serif;
+        }
+
+        #font6 {
+            font-family: 'Libre Barcode 128 Text', cursive;
+        }
+
+        #font7 {
+            font-family: 'Text Me One', sans-serif;
+        }
+
+        #font8 {
+            font-family: 'Jua', sans-serif;
+        }
+
+        #font9 {
+            font-family: 'Do Hyeon', sans-serif;
+        }
+
+        #font10 {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+
+        #font11 {
+            font-family: 'Nanum Gothic', sans-serif;
+        }
+
+        #font12 {
+            font-family: 'Sunflower', sans-serif;
+        }
+
+        #font13 {
+            font-family: 'Bad Script', cursive;
+        }
+
+        #font14 {
+            font-family: 'Julius Sans One', sans-serif;
+        }
+
+        #font15 {
+            font-family: 'Gaegu', cursive;
+        }
+
+        #font16 {
+            font-family: 'Raleway Dots', cursive;
+        }
+
+        #font17 {
+            font-family: 'Gamja Flower', cursive;
+        }
+
+        #font18 {
+            font-family: 'Bungee Shade', cursive;
+        }
+
+        #font19 {
+            font-family: 'Hi Melody', cursive;
+        }
+
+        #font20 {
+            font-family: 'Offside', cursive;
+        }
+
+        #font21 {
+            font-family: 'Londrina Sketch', cursive;
+        }
+
+        #font22 {
+            font-family: 'Nanum Myeongjo', serif;
+        }
+
+        #font23 {
+            font-family: 'Gothic A1', sans-serif;
+        }
+
+        #font24 {
+            font-family: 'Nanum Gothic Coding', monospace;
+        }
+
+        #font25 {
+            font-family: 'Pacifico', cursive;
+        }
+
+        body {
+            background-color: #e3e7ed;
+            margin: 0px;
+        }
+
+
+
+        .nav-container {
+            display: flex;
+            margin: 0;
+            width: 100%;
+            padding: 0;
+            background-color: #2a5fba;
+            list-style-type: none;
+            position: fixed;
+            top: 0;
+            border-bottom-right-radius: 30px;
+        }
+
+        header {
+            margin-top: 60px;
+        }
+
+        .nav-item {
+            padding: 15px 15px 15px 15px;
+            cursor: pointer;
+        }
+
+        .nav-item a {
+            text-align: center;
+            text-decoration: none;
+            font-family: 'Noto Sans KR', sans-serif;
+            color: white;
+        }
+
+        .nav-item:hover {
+            background-color: #002560;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .nav-logo {
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 10px;
+            cursor: pointer;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        input {
+            margin: 0px;
+            width: 170px;
+            height: 28px;
+            background-color: #ffffff;
+            border-radius:3px;
+            border:1px solid #d9dce0;
+            padding: 0px;
+        }
+
+        input:hover {
+            border:1px solid #2a5fba;
+        }
+
+        .box1 {
+            width: 400px;
+            height: 500px;
+            background-color:#ffffff;
+            border-radius: 7px;
+            border:1.2px solid #d9dce0;
+            padding: 50px 20px 10px 20px;
+            margin-top: 60px;
+        }
+
+        .box2 {
+            margin: 100px 0px 0px 0px; 
+        }
+
+        .box3 {
+            margin: 10px;
+        }
+
+        .box4 {
+            margin: 10px;
+            width: 100px;
+            height: 30px;
+            background-color: #ffffff
+        }
+
+        .box5 {
+            margin: 5px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul class="nav-container">
+            <li class="nav-logo"><a href="index.html" target="_self"><img src="image/기본로고.png" width="64" height="36"></a></li>
+            <li class="nav-item"><a href="login.html" target="_self">로그인</a></li>
+            <li class="nav-item"><a href="cell.html" target="_self">학사 일정</a></li>
+            <li class="nav-item"><a href="profile.html" target="_self">프로필</a></li>
+            <li class="nav-item"><a href="index.html" target="_self">타임라인</a></li>
+        </ul>
+    </nav>
+
+    <center>
+        <div class="box1">
+            <a href="index.html" target="_self"><img src="image/기본로고2.png" width="256" height="144"></a>
+            <div class="box2">
+                <form action="login.js" method="post" autocomplete="on">
+                    <input type="text" id="id" placeholder="아이디">
+                    <div class="box3">
+                        <input type="password" id="pw" placeholder="비밀번호">
+                    </div>
+                    <input type="submit" title="로그인" value="로그인하기">
+                </form>
+            </div>
+            <div class="box5">
+                <a href="register.html" target="_blank">
+                    <input type="button" title="회원가입" value="회원가입하기">
+                </a>
+            </div>
+        </div>
+    </center>
+
+
+
+</body>
+</html>
