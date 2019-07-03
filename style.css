@@ -1,0 +1,240 @@
+    <style type="text/css">
+        #font1 {
+            font-family: 'Comfortaa', cursive;
+        }
+        #font2 {
+            font-family: 'Nanum Pen Script', cursive;
+        }
+        #font3 {
+            font-family: 'Amatic SC', cursive;
+        }
+        #font4 {
+            font-family: 'Nanum Brush Script', cursive;
+        }
+        #font5 {
+            font-family: 'Bai Jamjuree', sans-serif;
+        }
+        #font6 {
+            font-family: 'Libre Barcode 128 Text', cursive;
+        }
+        #font7 {
+            font-family: 'Text Me One', sans-serif;
+        }
+        #font8 {
+            font-family: 'Jua', sans-serif;
+        }
+        #font9 {
+            font-family: 'Do Hyeon', sans-serif;
+        }
+        #font10 {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+        #font11 {
+            font-family: 'Nanum Gothic', sans-serif;
+        }
+        #font12 {
+            font-family: 'Sunflower', sans-serif;
+        }
+        #font13 {
+            font-family: 'Bad Script', cursive;
+        }
+        #font14 {
+            font-family: 'Julius Sans One', sans-serif;
+        }
+        #font15 {
+            font-family: 'Gaegu', cursive;
+        }
+        #font16 {
+            font-family: 'Raleway Dots', cursive;
+        }
+        #font17 {
+            font-family: 'Gamja Flower', cursive;
+        }
+        #font18 {
+            font-family: 'Bungee Shade', cursive;
+        }
+        #font19 {
+            font-family: 'Hi Melody', cursive;
+        }
+        #font20 {
+            font-family: 'Offside', cursive;
+        }
+        #font21 {
+            font-family: 'Londrina Sketch', cursive;
+        }
+        #font22 {
+            font-family: 'Nanum Myeongjo', serif;
+        }
+        #font23 {
+            font-family: 'Gothic A1', sans-serif;
+        }
+        #font24 {
+            font-family: 'Nanum Gothic Coding', monospace;
+        }
+        #font25 {
+            font-family: 'Pacifico', cursive;
+
+        }
+
+        ::-webkit-scrollbar {
+             width: 7.5px;  /* 세로축 스크롤바 길이 */
+             height: 7.5px;  /* 가로축 스크롤바 길이 */
+        }
+
+        ::-webkit-scrollbar-track {
+             background-color: none;
+             margin: 50px;
+        }
+
+        ::-webkit-scrollbar-track-piece {
+             background-color: none;
+        }
+
+        ::-webkit-scrollbar-thumb {
+             border-radius: 7px;
+             background-color: #2a5fba;
+             border: 10px none none;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+             background-color: #3375e8;
+        }
+
+        body {
+            background-color:#e3e7ed;
+            margin: 0px;
+            font-family: 'Nanum Gothic', sans-serif;
+            overflow: auto;
+        }
+
+        .nav-container {
+            display: flex;
+            margin: 0;
+            width: 100%;
+            padding: 0;
+            background-color: #2a5fba;
+            list-style-type: none;
+            position: fixed;
+            top: 0;
+            border-bottom-right-radius: 30px;
+        }
+        
+        .nav-item {
+            padding: 1.2vw 1vw 1.2vw 1vw;
+            cursor: pointer;
+            max-height: 50px;
+        }
+
+        .nav-item a {
+            text-align: center;
+            text-decoration: none;
+            font-family: 'Noto Sans KR', sans-serif;
+            color: white;
+        }
+
+        .nav-item:hover {
+            background-color: #002560;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .nav-logo {
+            padding: 0.9vw 1.5vw 0vw 1.5vw;
+            cursor: pointer;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        header {
+            width: 35%;
+            min-width: 250px;
+            height: 400px;
+            margin: 10px 0% 10px 0%;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1.2px solid #d9dce0;
+            border-radius: 7px;
+            overflow: auto;
+        }
+
+        input {
+            width: 100%;
+            height: auto;
+            background-color: #ffffff;
+            border: 1.2px solid #d9dce0;
+            border-radius: 3px;
+            float: right;
+        }
+
+        input:hover {
+            border-color: #2a5fba;
+            cursor: pointer;
+        }
+
+        .nav-box {
+            margin: 10px 0px 10px 0px;
+            background-color: none;
+            width: auto;
+            height: auto;
+            border: none;
+            float: left;
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+
+        .textarea1 {
+            width: 100%;
+            height: 100%;
+            max-height: 100%;
+            max-width: 100%;
+            overflow: auto;
+            margin: 0px;
+            border: none;
+        }
+
+        .box1 {
+            width: 35%;
+            min-width: 250px;
+            height: auto;
+            margin: 10px 0% 10px 0%;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1.2px solid #d9dce0;
+            border-radius: 7px;
+            max-height: 400px;
+            overflow: auto;
+            text-align: left;
+        }
+
+        .box-content {
+            width: auto;
+            height: auto;
+            background-color: none;
+        }
+
+        .box2 {
+            width: 35%;
+            min-width: 250px;
+            height: auto;
+            margin: 5% 0% 10px 0%;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1.2px solid #d9dce0;
+            border-radius: 7px;
+            overflow: auto;
+            max-height: 200px;
+            text-align : left;
+        }
+
+        .box2:hover {
+            border-color: #2a5fba
+        }
+
+
+        
+    </style>
